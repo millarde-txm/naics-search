@@ -1,0 +1,25 @@
+{
+    "name": "naics-search",
+    "version": "0.0.1",
+    "description": "Source code for Elasticsearch sample using 2017 NAICS data.",
+    "scripts": {
+      "start": "node --inspect=0.0.0.0:9229 server/app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/millarde/naics-search.git"
+    },
+    "author": "millard.ellingsworth@gmail.com",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/millarde/naics-search/issues"
+    },
+    "homepage": "https://github.com/millarde/naics-search#readme",
+    "dependencies": {
+      "elasticsearch": "15.3.0",
+      "joi": "14.3.1",
+      "koa": "2.6.2",
+      "koa-joi-validate": "0.5.1",
+      "koa-router": "7.4.0"
+    }
+  }
