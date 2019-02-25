@@ -7,24 +7,24 @@ The fuzzy search (as configured) does not match partial words (unless really clo
 
 The data loaded into ElasticSearch is persisted into a Docker-managed volume (see it useing `docker volume list`) and will persist between container restarts.
 
-##Pre-requisites:
+#Pre-requisites:
 er, you'll need Docker installed.
 Then clone this repo to a local directory and CD into it.
 
-##Start services:
+#Start services:
 `docker-compose up -d --build`
 
 This will automatically build containers on first use and build any that are out-of-date on subsequent invocations. So if you change any of the code, use that command to rebuild changed containers and start them. It is not necessary to stop containers for this to work -- changed containers will be replaced.
 
-##Load data into container:
+#Load data into container:
 `docker exec naics-search-api "node" "server/load_data.js"`
 
-##Access webUI:
+#Access webUI:
 http://localhost:8080/
 
 Search away!
 
-##Postscript:
+#Postscript:
 To stop containers, use `docker-compose stop`
 To start without rebuilding, use `docker-compose start`
 
