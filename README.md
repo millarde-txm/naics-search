@@ -5,6 +5,8 @@ As the search is currently configured/implemented, it does "fuzzy" searching. So
 
 The fuzzy search (as configured) does not match partial words (unless really close to the full word). So "bee production" will return 6 hits (including matching "bees" and "beet"), but "bee prod" matches nothing. On the upside, typing "kilm" matches "kiln".
 
+![Snippet of screen shot](https://github.com/millarde-txm/naics-search/blob/master/naics-search-example-snippet.PNG)
+
 The data loaded into ElasticSearch is persisted into a Docker-managed volume (see it useing `docker volume list`) and will persist between container restarts.
 
 ## Pre-requisites:
