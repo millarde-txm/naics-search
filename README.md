@@ -10,7 +10,8 @@ The fuzzy search (as configured) does not match partial words (unless really clo
 The data loaded into ElasticSearch is persisted into a Docker-managed volume (see it useing `docker volume list`) and will persist between container restarts.
 
 ## Pre-requisites:
-er, you'll need Docker installed.
+er, you'll need Docker installed and you'll need to give it permission to store data on your local drive.
+
 Then clone this repo to a local directory and CD into it.
 
 ## Start services:
