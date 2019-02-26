@@ -7,14 +7,14 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/millarde/naics-search.git"
+      "url": "git+https://github.com/user/naics-search.git"
     },
-    "author": "millard.ellingsworth@gmail.com",
+    "author": "dude@texasmutual.com",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/millarde/naics-search/issues"
+      "url": "https://github.com/user/naics-search/issues"
     },
-    "homepage": "https://github.com/millarde/naics-search#readme",
+    "homepage": "https://github.com/user/naics-search#readme",
     "dependencies": {
       "elasticsearch": "15.3.0",
       "joi": "14.3.1",
